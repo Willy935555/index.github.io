@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFE6D9;
+    margin: 0px;
+}
+header, nav, main, footer {
+    
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+}
+header {
+    background-color: #d4237c;
+    margin: 0px;
+    text-align: center;
+}
+nav {
+    justify-content: space-around;
+    margin-top: 0px;
+    background-color: rgb(236, 161, 214);
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+}
+main {
+    flex-direction:  column;
+    margin: 20px;
+}
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.card{
+    width: 50%;
+    margin: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(image/6.jpg);
+    border-radius: 10px;
+    background-size: cover;
+}
+.progress-bar {
+    height: 20px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+}
+.skills, .experience {
+    width: 70%;
+    margin: 20px 0;
+    padding: 40px;
+    background-image: url(image/alt.jpg);
+    background-size: cover;
+}
+.skill {
+    margin: 20px 0;
+}
+.skill-name {
+    font-weight: bold;
+}
+.progress-bar-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.java {
+    width: 10%;
+    background-color: #f44336; 
+}
+.python {
+    width: 50%;
+    background-color: #4CAF50; 
+}
+.c {
+    width: 5%;
+    background-color: #2196F3; 
+}
+.html {
+    width: 40%;
+    background-color: #EAC100;
+}
+
+.programming-skill {
+    margin: 20px 0;
+}
+.word {
+    width: 70%;
+    background-color: #FFB6C1; 
+}
+.excel {
+    width: 50%;
+    background-color: #98FB98; 
+}
+.access {
+    width: 80%;
+    background-color: #87CEEB; 
+}
+footer {
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: #EAC100;
+}
+nav a:hover{
+    background-color: cda8b8;
+    color: aliceblue;
+}
+footer a:hover{
+    background-color: blue;
+    color: #4CAF50;
+}
